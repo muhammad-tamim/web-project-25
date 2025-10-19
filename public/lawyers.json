@@ -1,0 +1,269 @@
+[
+    {
+        "id": 1,
+        "name": "Barrister Fahim Rahman",
+        "specialization": "Criminal Law",
+        "experience": "12 years",
+        "rating": 4.8,
+        "price_bdt": 9500,
+        "license_number": "BD-DHK-CR-10234",
+        "image": "https://i.ibb.co.com/KzjdG9x2/14836.jpg",
+        "contact": {
+            "phone": "+8801711002233",
+            "email": "fahim.rahman@bdlawyers.com"
+        },
+        "location": "Dhaka, Bangladesh",
+        "verified": true,
+        "availability": [
+            "Saturday",
+            "Sunday",
+            "Tuesday"
+        ],
+        "bio": "An accomplished criminal defense barrister with over a decade of experience, Fahim Rahman is deeply committed to defending the rights of the accused. Known for his strategic courtroom skills and dedication to justice, he takes on even the most complex criminal cases with confidence and professionalism."
+    },
+    {
+        "id": 2,
+        "name": "Advocate Nusrat Jahan",
+        "specialization": "Family Law",
+        "experience": "9 years",
+        "rating": 4.6,
+        "price_bdt": 6500,
+        "license_number": "BD-CTG-FL-87456",
+        "image": "https://i.ibb.co.com/bgGts1mN/14728.jpg",
+        "contact": {
+            "phone": "+8801922233445",
+            "email": "nusrat.jahan@bdlegal.org"
+        },
+        "location": "Chattogram, Bangladesh",
+        "verified": true,
+        "availability": [
+            "Monday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "bio": "Nusrat Jahan is a compassionate family law advocate who supports clients through emotionally challenging legal matters, including divorce, custody, and domestic disputes. Her thoughtful approach, coupled with strong legal expertise, ensures positive outcomes for families in distress."
+    },
+    {
+        "id": 3,
+        "name": "Advocate Tanvir Hossain",
+        "specialization": "Civil Law",
+        "experience": "7 years",
+        "rating": 4.5,
+        "price_bdt": 5800,
+        "license_number": "BD-KHL-CV-22331",
+        "image": "https://i.ibb.co.com/VWPCHS8r/14833.jpg",
+        "contact": {
+            "phone": "+8801888776655",
+            "email": "tanvir.hossain@khulnalaw.net"
+        },
+        "location": "Khulna, Bangladesh",
+        "verified": true,
+        "availability": [
+            "Sunday",
+            "Monday"
+        ],
+        "bio": "Specializing in civil disputes, Tanvir Hossain offers expert guidance on issues such as contracts, torts, and property rights. He is known for his clear communication and tactical legal strategies that help clients achieve timely and favorable resolutions."
+    },
+    {
+        "id": 4,
+        "name": "Barrister Anika Chowdhury",
+        "specialization": "Corporate Law",
+        "experience": "11 years",
+        "rating": 4.9,
+        "price_bdt": 10500,
+        "license_number": "BD-DHK-CO-55667",
+        "image": "https://i.ibb.co.com/YwzgzqW/14709.jpg",
+        "contact": {
+            "phone": "+8801700123456",
+            "email": "anika.chowdhury@bdbar.org"
+        },
+        "location": "Dhaka, Bangladesh",
+        "verified": true,
+        "availability": [
+            "Saturday",
+            "Sunday",
+            "Monday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "bio": "With extensive experience in advising startups and corporations, Anika Chowdhury is a trusted name in corporate law. She handles business formation, contracts, mergers, and compliance with precision and business-savvy insight."
+    },
+    {
+        "id": 5,
+        "name": "Advocate Shamsul Alam",
+        "specialization": "Land & Property Law",
+        "experience": "15 years",
+        "rating": 4.7,
+        "price_bdt": 7800,
+        "license_number": "BD-RJP-LP-44551",
+        "image": "https://i.ibb.co.com/CqYdJSM/14854.jpg",
+        "contact": {
+            "phone": "+8801765432198",
+            "email": "shamsul.alam@rajshahilaw.org"
+        },
+        "location": "Rajshahi, Bangladesh",
+        "verified": true,
+        "availability": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "bio": "Shamsul Alam is a seasoned land and property lawyer with deep expertise in real estate law. He helps clients resolve disputes, manage transactions, and ensure their property rights are fully protected under the law."
+    },
+    {
+        "id": 6,
+        "name": "Advocate Rifat Mahmud",
+        "specialization": "Immigration Law",
+        "experience": "6 years",
+        "rating": 4.3,
+        "price_bdt": 5600,
+        "license_number": "BD-SYL-IM-66778",
+        "image": "https://i.ibb.co.com/B5ynt1X3/14855.jpg",
+        "contact": {
+            "phone": "+8801933445566",
+            "email": "rifat.mahmud@sylhetimmigration.com"
+        },
+        "location": "Sylhet, Bangladesh",
+        "verified": false,
+        "availability": [
+            "Monday",
+            "Thursday"
+        ],
+        "bio": "Rifat Mahmud focuses on providing reliable legal assistance for immigration matters, including visa processing, deportation defense, and citizenship applications. He is committed to helping clients and families build brighter futures abroad."
+    },
+    {
+        "id": 7,
+        "name": "Barrister Tania Akter",
+        "specialization": "Human Rights Law",
+        "experience": "8 years",
+        "rating": 4.6,
+        "price_bdt": 6100,
+        "license_number": "BD-DHK-HR-88772",
+        "image": "https://i.ibb.co.com/TMGw6dwc/14848.jpg",
+        "contact": {
+            "phone": "+8801999887766",
+            "email": "tania.akter@rightslaw.org"
+        },
+        "location": "Dhaka, Bangladesh",
+        "verified": true,
+        "availability": [
+            "Sunday",
+            "Tuesday",
+            "Thursday"
+        ],
+        "bio": "An unwavering advocate for human rights, Tania Akter defends civil liberties and fights systemic injustice. Her legal work focuses on vulnerable populations, freedom of speech, and ensuring equal treatment for all."
+    },
+    {
+        "id": 8,
+        "name": "Advocate Imran Kabir",
+        "specialization": "Tax Law",
+        "experience": "10 years",
+        "rating": 4.4,
+        "price_bdt": 6900,
+        "license_number": "BD-CTG-TX-33558",
+        "image": "https://i.ibb.co.com/4wSxfg4r/17.jpg",
+        "contact": {
+            "phone": "+8801755667788",
+            "email": "imran.kabir@taxbd.com"
+        },
+        "location": "Chattogram, Bangladesh",
+        "verified": true,
+        "availability": [
+            "Saturday",
+            "Monday"
+        ],
+        "bio": "Imran Kabir is a trusted tax law specialist providing practical solutions for tax compliance, audits, and disputes. His expertise helps individuals and businesses navigate complex taxation issues with confidence and ease."
+    },
+    {
+        "id": 9,
+        "name": "Barrister Sara Zaman",
+        "specialization": "International Law",
+        "experience": "13 years",
+        "rating": 4.9,
+        "price_bdt": 11500,
+        "license_number": "BD-DHK-INT-99443",
+        "image": "https://i.ibb.co.com/JwWtRj3F/14860.jpg",
+        "contact": {
+            "phone": "+8801811223344",
+            "email": "sara.zaman@intlbdlaw.com"
+        },
+        "location": "Dhaka, Bangladesh",
+        "verified": true,
+        "availability": [
+            "Saturday",
+            "Sunday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "bio": "Sara Zaman is a respected international law barrister with deep knowledge of treaties, cross-border legal conflicts, and international human rights. Her work spans diplomacy, global litigation, and multinational compliance."
+    },
+    {
+        "id": 10,
+        "name": "Advocate Nayema Ahmed",
+        "specialization": "Cyber Law",
+        "experience": "5 years",
+        "rating": 4.2,
+        "price_bdt": 5400,
+        "license_number": "BD-RNG-CY-77411",
+        "image": "https://i.ibb.co.com/276dcbZD/14863.jpg",
+        "contact": {
+            "phone": "+8801991122334",
+            "email": "nayeem.ahmed@rangpurlaw.com"
+        },
+        "location": "Rangpur, Bangladesh",
+        "verified": false,
+        "availability": [
+            "Monday",
+            "Wednesday"
+        ],
+        "bio": "Nayema Ahmed is a dynamic cyber law expert tackling legal issues in the digital space. Her areas include cybercrime, privacy laws, and internet regulations, helping clients stay protected in the online world."
+    },
+    {
+        "id": 11,
+        "name": "Advocate Munira Sultana",
+        "specialization": "Constitutional Law",
+        "experience": "14 years",
+        "rating": 4.8,
+        "price_bdt": 9800,
+        "license_number": "BD-DHK-CS-99887",
+        "image": "https://i.ibb.co.com/pj3VpGVG/14871.jpg",
+        "contact": {
+            "phone": "+8801966112233",
+            "email": "munira.sultana@bdconstitution.com"
+        },
+        "location": "Dhaka, Bangladesh",
+        "verified": true,
+        "availability": [
+            "Saturday",
+            "Sunday",
+            "Monday",
+            "Tuesday"
+        ],
+        "bio": "A respected constitutional law advocate, Munira Sultana defends fundamental rights and champions government accountability. Her work is rooted in justice, policy analysis, and long-standing legal excellence."
+    },
+    {
+        "id": 12,
+        "name": "Advocate Shaila Sultana",
+        "specialization": "Labour & Employment Law",
+        "experience": "10 years",
+        "rating": 4.5,
+        "price_bdt": 7200,
+        "license_number": "BD-BRT-LB-66777",
+        "image": "https://i.ibb.co.com/0V9cDsMC/14844.jpg",
+        "contact": {
+            "phone": "+8801744556677",
+            "email": "shaila.sultana@bdlabourlaw.com"
+        },
+        "location": "Barisal, Bangladesh",
+        "verified": true,
+        "availability": [
+            "Sunday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "bio": "Shaila Sultana is a passionate advocate for labor rights, offering expert counsel on workplace disputes, employment contracts, and labor regulations. She is dedicated to fair treatment and justice in the workforce."
+    }
+]
