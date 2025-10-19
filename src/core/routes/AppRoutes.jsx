@@ -20,7 +20,7 @@ export const AppRoutes = createBrowserRouter([
                 Component: LawyersDetailsPage
             },
             {
-                path: 'booking',
+                path: 'bookings',
                 Component: BookingPage
             },
             {
