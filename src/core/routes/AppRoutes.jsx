@@ -12,19 +12,20 @@ export const AppRoutes = createBrowserRouter([
         Component: MainLayout,
         children: [
             {
-                index: true,
+                // index: true,
+                path: '/',
                 Component: HomePage
             },
             {
-                path: 'lawyers-details/:id',
+                path: '/lawyers-details/:id',
                 Component: LawyersDetailsPage
             },
             {
-                path: 'bookings',
+                path: '/bookings',
                 Component: BookingPage
             },
             {
-                path: 'blogs',
+                path: '/blogs',
                 Component: BlogsPage
             },
         ]
