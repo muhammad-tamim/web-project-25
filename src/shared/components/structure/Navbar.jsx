@@ -5,8 +5,6 @@ import { Link, NavLink } from 'react-router';
 import { CiMenuFries } from 'react-icons/ci';
 
 const Navbar = () => {
-
-
     return (
         <div className='max-w-[1600px] mx-auto px-4 md:px-8 lg:px-12 xl:px-[160px] py-7 border-b border-primary-content/5'>
             <div className='flex justify-between items-center'>
