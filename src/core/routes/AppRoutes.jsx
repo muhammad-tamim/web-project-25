@@ -15,12 +15,14 @@ export const AppRoutes = createBrowserRouter([
             {
                 index: true,
                 Component: HomePage,
-                loader: () => fetch('lawyers.json'),
+                loader: () => fetch('/lawyers.json'),
                 hydrateFallbackElement: <LoadingSpinner></LoadingSpinner>
             },
             {
                 path: 'lawyers-details/:id',
-                Component: LawyersDetailsPage
+                Component: LawyersDetailsPage,
+                loader: () => fetch('/lawyers.json'),
+                hydrateFallbackElement: <LoadingSpinner></LoadingSpinner>
             },
             {
                 path: 'bookings',
