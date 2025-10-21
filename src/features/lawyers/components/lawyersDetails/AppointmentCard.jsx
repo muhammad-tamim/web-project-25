@@ -1,8 +1,10 @@
 import React from 'react';
 import { CiSquareInfo } from 'react-icons/ci';
 import { setIdToLocalStorage } from '../../../../shared/utils/setIdToLocalStorage';
+import { useNavigate } from 'react-router';
 
 const AppointmentCard = ({ lawyer }) => {
+    const navigate = useNavigate()
     const { id, availability } = lawyer || {}
 
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -12,7 +14,9 @@ const AppointmentCard = ({ lawyer }) => {
     const todayAvailabilityCheck = availability.find((available) => available === dayName)
 
     const handleBookAppointment = (AppointmentId) => {
+        if (!todayAvailabilityCheck) return
         setIdToLocalStorage(AppointmentId)
+        navigate('/bookings')
     }
 
     return (
