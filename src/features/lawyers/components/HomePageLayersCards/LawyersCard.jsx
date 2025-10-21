@@ -29,7 +29,7 @@ const LawyersCard = ({ lawyer }) => {
                         License No: {license_number}</p>
                 </div>
                 <div>
-                    <Link to={`lawyers-details/:${id}`}>
+                    <Link to={`lawyers-details/${id}`}>
                         <button className='cursor-pointer rounded-full border border-info/20 w-full py-2 text-info font-bold text-base hover:text-neutral-content hover:bg-info'>View Details</button>
                     </Link>
                 </div>
