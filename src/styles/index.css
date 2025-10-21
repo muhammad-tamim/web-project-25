@@ -6,7 +6,10 @@
     default: true;
     --color-primary: #0EA106;
     --color-primary-content: #0F0F0F;
-    --color-secondary: #176AE5;
+    --color-success: #09982F;
+    --color-info: #176AE5;
+    --color-warning: #FFA000;
+    --color-error: #FF0000;
 }
 
 body {
