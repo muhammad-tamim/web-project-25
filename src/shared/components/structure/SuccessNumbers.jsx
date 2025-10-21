@@ -7,7 +7,7 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 
 const SuccessNumbers = () => {
-    const { ref, inView } = useInView({ threshold: .5 }); // percentage of element visible before triggering (0 - 1)
+    const { ref, inView } = useInView({ threshold: .5, triggerOnce: true }); // percentage of element visible before triggering (0 - 1)
 
     const successItems = [
         { id: 1, image: `${lawyers}`, number: 199, label: "Total Lawyers" },
