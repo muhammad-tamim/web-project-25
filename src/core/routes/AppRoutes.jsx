@@ -5,6 +5,7 @@ import BookingPage from "../../pages/BookingPage";
 import BlogsPage from "../../pages/BlogsPage";
 import LawyersDetailsPage from "../../pages/LawyersDetailsPage";
 import ErrorPage from "../../pages/ErrorPage";
+import LoadingSpinner from "../../shared/components/ui/LoadingSpinner";
 
 export const AppRoutes = createBrowserRouter([
     {
@@ -12,20 +13,21 @@ export const AppRoutes = createBrowserRouter([
         Component: MainLayout,
         children: [
             {
-                // index: true,
-                path: '/',
-                Component: HomePage
+                index: true,
+                Component: HomePage,
+                loader: () => fetch('lawyers.json'),
+                hydrateFallbackElement: <LoadingSpinner></LoadingSpinner>
             },
             {
-                path: '/lawyers-details/:id',
+                path: 'lawyers-details/:id',
                 Component: LawyersDetailsPage
             },
             {
-                path: '/bookings',
+                path: 'bookings',
                 Component: BookingPage
             },
             {
-                path: '/blogs',
+                path: 'blogs',
                 Component: BlogsPage
             },
         ]
