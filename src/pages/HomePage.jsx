@@ -1,8 +1,8 @@
 import React from 'react';
 import Hero from '../shared/components/structure/Hero';
-import Lawyers from '../features/lawyers/components/Lawyers';
 import SuccessNumbers from '../shared/components/structure/SuccessNumbers';
 import { useLoaderData } from 'react-router';
+import Lawyers from '../features/lawyers/components/HomePageLayersCards/Lawyers';
 
 const HomePage = () => {
     const lawyers = useLoaderData()
