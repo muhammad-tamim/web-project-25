@@ -3,6 +3,7 @@ import logo from '../../../assets/logos/logo.png'
 import { navItems } from '../../utils/navItems';
 import { Link, NavLink } from 'react-router';
 import { CiMenuFries } from 'react-icons/ci';
+import PrimaryButton from '../ui/Buttons/PrimaryButton';
 
 const Navbar = () => {
     return (
@@ -23,7 +24,7 @@ const Navbar = () => {
                         }}>{item.label}</NavLink>)}
                 </div>
                 <div>
-                    <Link to={"contact-now"}><button className='hidden lg:flex btn btn-lg btn-primary rounded-[30px] text-white font-bold text-xl '>Contact Now</button></Link>
+                    <PrimaryButton to={"contact-now"} label={"Contact Now"}></PrimaryButton>
                     {/* drawer */}
                     <div className="drawer drawer-end lg:hidden">
                         <input id="my-drawer-5" type="checkbox" className="drawer-toggle" />
