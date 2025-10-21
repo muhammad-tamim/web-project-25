@@ -24,7 +24,7 @@ const LawyersDetailsDynamicInfo = ({ lawyer }) => {
                 <div className='flex items-center gap-4'>
                     <p className='text-primary-content/70  font-bold hidden md:block'>Availability</p>
                     <div className='flex gap-4'>
-                        {availability.map((available) => <p className='text-warning bg-warning/10 border border-warning-20 rounded-full font-medium w-fit py-[5px] px-[10px]'>{available}</p>)}
+                        {availability.map((available, index) => <p key={index} className='text-warning bg-warning/10 border border-warning-20 rounded-full font-medium w-fit py-[5px] px-[10px]'>{available}</p>)}
                     </div>
                 </div>
                 <div className='flex items-center justify-center md:justify-start gap-4'>
