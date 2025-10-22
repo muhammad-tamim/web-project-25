@@ -24,7 +24,7 @@ const Navbar = () => {
                         }}>{item.label}</NavLink>)}
                 </div>
                 <div>
-                    <Link to={"contact-now"}><PrimaryButton label={"Contact Now"}></PrimaryButton></Link>
+                    <Link to={"/contact-now"}><PrimaryButton label={"Contact Now"}></PrimaryButton></Link>
                     {/* drawer */}
                     <div className="drawer drawer-end lg:hidden">
                         <input id="my-drawer-5" type="checkbox" className="drawer-toggle" />
