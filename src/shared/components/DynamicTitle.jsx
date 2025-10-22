@@ -5,11 +5,11 @@ const DynamicTitle = () => {
     const location = useLocation()
     const { id } = useParams()
     useEffect(() => {
-        let title = 'law.bd';
+        let title = '';
 
         switch (location.pathname) {
             case '/':
-                title = 'Home';
+                title = 'Law.bd';
                 break;
             case '/bookings':
                 title = 'Law.BD | Bookings';
