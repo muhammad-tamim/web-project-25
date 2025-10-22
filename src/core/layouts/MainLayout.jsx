@@ -8,7 +8,7 @@ import DynamicTitle from '../../shared/components/DynamicTitle';
 const MainLayout = () => {
     return (
         <div>
-            <DynamicTitle></DynamicTitle>
+            {/* <DynamicTitle></DynamicTitle> */}
             <Navbar></Navbar>
             <Container>
                 <Outlet></Outlet>

@@ -7,11 +7,14 @@ import Lawyers from '../features/lawyers/components/HomePageLayersCards/Lawyers'
 const HomePage = () => {
     const lawyers = useLoaderData()
     return (
-        <div>
-            <Hero></Hero>
-            <Lawyers lawyers={lawyers}></Lawyers>
-            <SuccessNumbers></SuccessNumbers>
-        </div>
+        <article>
+            <title>{"Law.BD | Home"}</title>
+            <div>
+                <Hero></Hero>
+                <Lawyers lawyers={lawyers}></Lawyers>
+                <SuccessNumbers></SuccessNumbers>
+            </div>
+        </article>
     );
 };
 

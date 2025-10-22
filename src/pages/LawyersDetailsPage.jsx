@@ -12,11 +12,14 @@ const LawyersDetailsPage = () => {
 
 
     return (
-        <div className=''>
-            <LawyersDetailsStaticIntro></LawyersDetailsStaticIntro>
-            <LawyersDetailsDynamicInfo lawyer={lawyer}></LawyersDetailsDynamicInfo>
-            <AppointmentCard lawyer={lawyer}></AppointmentCard>
-        </div>
+        <article>
+            <title>{"Law.BD | Lawyers-Details"}</title>
+            <div className=''>
+                <LawyersDetailsStaticIntro></LawyersDetailsStaticIntro>
+                <LawyersDetailsDynamicInfo lawyer={lawyer}></LawyersDetailsDynamicInfo>
+                <AppointmentCard lawyer={lawyer}></AppointmentCard>
+            </div>
+        </article>
     );
 };
 

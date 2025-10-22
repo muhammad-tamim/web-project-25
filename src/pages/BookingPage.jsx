@@ -29,16 +29,19 @@ const BookingPage = () => {
     document.title = 'Blogs | Law.bd';
 
     return (
-        <div>
-            <Rechart lawyers={lawyers}></Rechart>
-            <div className='mt-[97px] text-center mb-16'>
-                <h1 className='font-extrabold text-[40px] pb-4'>My Today Appointments</h1>
-                <p className='font-primary-content'>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
+        <article>
+            <title>{"Law.Bd | Bookings"}</title>
+            <div>
+                <Rechart lawyers={lawyers}></Rechart>
+                <div className='mt-[97px] text-center mb-16'>
+                    <h1 className='font-extrabold text-[40px] pb-4'>My Today Appointments</h1>
+                    <p className='font-primary-content'>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
+                </div>
+                <div className='space-y-16 mb-16 lg:mb-20 xl:mb-[220px]'>
+                    {lawyers.map((lawyer) => <BookingCard handleCancelAppointment={handleCancelAppointment} lawyer={lawyer} key={lawyer.id}></BookingCard>)}
+                </div>
             </div>
-            <div className='space-y-16 mb-16 lg:mb-20 xl:mb-[220px]'>
-                {lawyers.map((lawyer) => <BookingCard handleCancelAppointment={handleCancelAppointment} lawyer={lawyer} key={lawyer.id}></BookingCard>)}
-            </div>
-        </div>
+        </article>
     );
 };
 
