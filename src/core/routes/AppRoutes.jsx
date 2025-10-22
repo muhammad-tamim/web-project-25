@@ -26,7 +26,9 @@ export const AppRoutes = createBrowserRouter([
             },
             {
                 path: 'bookings',
-                Component: BookingPage
+                Component: BookingPage,
+                loader: () => fetch('/lawyers.json'),
+                hydrateFallbackElement: <LoadingSpinner></LoadingSpinner>
             },
             {
                 path: 'blogs',
