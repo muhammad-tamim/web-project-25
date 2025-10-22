@@ -26,6 +26,8 @@ const BookingPage = () => {
 
     if (lawyers.length === 0) return <EmptyState></EmptyState>
 
+    document.title = 'Blogs | Law.bd';
+
     return (
         <div>
             <Rechart lawyers={lawyers}></Rechart>
