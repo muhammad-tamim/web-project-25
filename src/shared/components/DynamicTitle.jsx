@@ -4,7 +4,6 @@ import { useLocation, useParams } from 'react-router';
 const DynamicTitle = () => {
     const location = useLocation()
     const { id } = useParams()
-    console.log(id)
     useEffect(() => {
         let title = 'law.bd';
 
