@@ -32,7 +32,9 @@ export const AppRoutes = createBrowserRouter([
             },
             {
                 path: 'blogs',
-                Component: BlogsPage
+                Component: BlogsPage,
+                loader: () => fetch('/blogs.json'),
+                hydrateFallbackElement: <LoadingSpinner></LoadingSpinner>
             },
         ]
     },

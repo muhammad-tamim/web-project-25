@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Understanding Property Law in Bangladesh",
+        "date": "October 12, 2025",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLNKsYmDR8Aecr36MyxxZgWrZ3FSMaX_Iabg&s",
+        "description": "Learn the fundamentals of property law in Bangladesh — including land ownership, registration, and inheritance laws.",
+        "category": "Property Law"
+    },
+    {
+        "id": 2,
+        "title": "When Should You Hire a Family Lawyer?",
+        "date": "September 28, 2025",
+        "image": "https://caputomariotti.com/wp-content/uploads/2025/08/When-Should-You-Hire-a-Family-Law-Attorney.jpg",
+        "description": "Family disputes can be emotionally draining. Find out when to consult a professional family lawyer for your peace of mind.",
+        "category": "Family Law"
+    },
+    {
+        "id": 3,
+        "title": "A Beginner’s Guide to Criminal Defense Rights",
+        "date": "September 10, 2025",
+        "image": "https://www.centurylawfirm.in/blog/wp-content/uploads/2022/08/lShjmQwzve-1-1024x593.jpg",
+        "description": "Knowing your rights is essential. This article covers what to do if you or someone you know is accused of a crime in Bangladesh.",
+        "category": "Criminal Law"
+    },
+    {
+        "id": 4,
+        "title": "Corporate Law Essentials for Startups",
+        "date": "August 22, 2025",
+        "image": "https://skynetimmigration.com/wp-content/uploads/2023/08/WP-Featured-Photo-Blog_20-08-23-20.jpg",
+        "description": "Before you register your startup, learn the key legal steps you must take to ensure your business complies with Bangladeshi corporate laws.",
+        "category": "Corporate Law"
+    },
+    {
+        "id": 5,
+        "title": "Legal Tips for Drafting a Strong Contract",
+        "date": "August 5, 2025",
+        "image": "https://cdn.prod.website-files.com/61dbb38f6612f97003df0f0d/683cf4607d79944cfdb2e91f_Basic%20principles%20of%20drafting%20a%20contract%20-%201-min.png",
+        "description": "Contracts protect your interests. Discover how to draft clear, enforceable agreements to avoid legal disputes.",
+        "category": "Contract Law"
+    },
+    {
+        "id": 6,
+        "title": "What to Expect in a Divorce Case in Bangladesh",
+        "date": "July 18, 2025",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg46VpqoRr0soG1YAKGMewf8WFluslqEwMpr8jUWc_enkcoSMSEFVqytgJ3jLCtiJEFdv85T865JHr1vJ0WRArALoGvzf9mUMofKLO7xyzzjIB7z1k18Zw2qVqtboJf1AhyLpeVFlRbY_2b/w1200-h630-p-k-no-nu/divorce.jpg",
+        "description": "Divorce laws vary by religion and personal law systems. This post explains the steps, documentation, and rights involved.",
+        "category": "Family Law"
+    }
+]
